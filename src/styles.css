@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@500;600;700&family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Product Sans Regular";
+    src: url("/public/font/Product Sans Regular.ttf");
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url("/public/font/Product Sans Bold.ttf");
+}
+
+@layer base {
+    .roboto {
+        @apply font-roboto;
+    }
+    .poppins {
+        @apply font-poppins;
+    }
+}
+
+@layer components {
+    .bg-login {
+        background-color : #5C9D8D;
+        
+    }
+    .text-nav {
+        color: #5C9D8D;
+    }
+
+    .text-cr {
+        color: #FFFFFFA6;
+    }
+
+    .bg-footer {
+        background-color: #5C9D8D;
+    }
+
+    .bg-hero {
+        background: url("/public/images/bg-hero.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .bg-cView {
+        background: url("/public/images/bgCview.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .bg-buton-hero {
+        background: linear-gradient(98.2deg, #C6D8AD -26.69%, #6EC8B2 114.91%);
+    }
+
+    .bg-achievement {
+        background: #7CAFA2;
+    }
+
+    .bg-gradient {
+        background: linear-gradient(87.05deg, #F2E7BC -4.4%, #DAF8E9 97.55%), linear-gradient(93.45deg, #C3EAD7 9.29%, #FFE999 36.17%), linear-gradient(93.45deg, #C3EAD7 2.64%, #FFE999 36.17%), linear-gradient(93.45deg, #C3EAD7 2.64%, #FFE999 36.36%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .text-grey2 {
+        color: #C7C7C7;
+    }
+}
