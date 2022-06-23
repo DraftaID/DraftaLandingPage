@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.2/dist/flowbite.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/index.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>Document</title>
+    <title>Drafta</title>
 </head>
 <body class="overflow-x-hidden">
     <!-- Header Section -->
@@ -52,13 +57,10 @@
     
       <div class=" mx-auto py-16 bg-hero mb-28">
           <div class="flex flex-col md:flex-row items-center pt-24">
-          <div class="w-full md:w-1/2 pl-20 " data-aos="fade-right" data-aos-duration="1500">
+          <div class="w-full md:w-2/3 pl-20 " data-aos="fade-right" data-aos-duration="1500">
               <h1 class="leading-10 font-poppins text-white md:text-6xl font-bold ">
                   Kembangkan Potensimu Melalui <span class="bg-gradient">Experiental Learning </span> Yang Berbeda
               </h1>
-              <p class="w-11/12 mt-4 text-gray-600 text-2xl">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              </p>
               <div class="mt-8">
               <a href="#" class="bg-buton-hero hover:bg-blue-800 text-white text-lg font-productSansBold font-bold py-2 px-12 md:px-7 rounded-lg">
                   Tentang Kami
@@ -74,8 +76,11 @@
       <!--- End of Hero Section -->
 
 
+
+
+
     <!-- About Section -->
-      <div class="about mx-auto px-32 py-16  ">
+      <!-- <div class="about mx-auto px-32 py-16  ">
           <div class="flex flex-col md:flex-row items-center space-x-24">  
           <div class="w-full md:w-1/2" data-aos="fade-right" data-aos-duration="700">
               <img src="images/aboutPic.png" alt="Drafta Hero" class="w-full" />
@@ -89,17 +94,143 @@
               </p>
           </div>
           </div>
+      </div> -->
+
+      <div class="about mx-auto ">
+        <div class="flex flex-col text-center justify-center items-center px-40">
+        <div class="w-2/4 mb-16">
+          <img  src="images/about.png" alt="about Drafta">
+        </div>
+        <div >
+          <h1 class="font-poppins font-semibold text-nav text-4xl">About Drafta</h1>
+          <p style="color: #747474" class="font-poppins font-medium text-xl mt-5">
+            Drafta is a revolutionary digital platform providing 
+            automated talent search and recruitment for companies, and valuable 
+            experiential learning for students. Drafta was initiated in mid-2021 by a group of students 
+            from the Sepuluh Nopember Institute of Technology, Surabaya who wanted to change the future of the nation's employment. We aim to solve the high unemployment rate for university graduates in Indonesia and become the leading network of Indonesia's future workforce.
+          </p>
+        </div>
+      </div>
       </div>
     <!--- End of About Section -->
 
 
 
+    <!-- Vision Section -->
+
+    <img class="absolute top-1635" src="images/garis hijau.png" alt="">
+    <img class="absolute top-1650" src="images/garis kuning.png" alt="">
+    <div class="px-32 mt-32 ">
+      <div class="text-center radius-40 px-36 pt-14 pb-16">
+        <h1 class="font-poppins font-semibold text-nav text-4xl">Our Vision</h1>
+        <p class="mt-7 font-poppins font-bold text-3xl text-nav">
+          To become an <span class="text-bgreen">advanced and powerful</span>  medium of <span class=" bg-yellows">economic empowerment</span>  for the next generation of Indonesia’s human resources throuh valuable and meaningful <span class="text-bgreen">experiential learning</span> 
+        </p>
+      </div>
+    </div>
+ 
+
+    <!-- End of Vision Section -->
+
+
+    <!-- Product Section -->
+    <div class="mt-60 px-32">
+      <h1 class="font-poppins font-semibold text-nav text-4xl text-center mb-20">Our  Products</h1>
+      <div class="flex justify-between space-x-14 items-center px-9 border-product py-24">
+        <div class="w-fit">
+          <img src="images/desktop.png" alt="">
+        </div>
+        <div class="w-fit">
+          <h2 class="font-poppins font-semibold text-lgreen text-3xl">Digital Students Space</h2>
+          <p style="color: #747474" class=" font-poppins font-medium text-xl mt-4">Drafta digagas pada pertengahan 2021 oleh sekelompok mahasiswa Institut Teknologi Sepuluh Nopember, Surabaya yang ingin mengubah masa depan ketenagakerjaan bangsa. Inovasi kami akan mentransformasi pengembangan</p>
+        </div>
+      </div>
+      <div class="flex justify-between space-x-10 items-center pl-20 pr-9 border-product py-24 mt-20">
+        <div class="w-screen">
+          <h2 class="font-poppins font-semibold text-lgreen text-3xl">Personalized Talent-Matching</h2>
+          <p style="color: #747474" class=" font-poppins font-medium text-xl mt-4">Drafta digagas pada pertengahan 2021 oleh sekelompok mahasiswa Institut Teknologi Sepuluh Nopember, Surabaya yang ingin mengubah masa depan ketenagakerjaan bangsa. Inovasi kami akan mentransformasi pengembangan</p>
+        </div>
+        <div class="w-screen">
+          <img src="images/phone.png" alt="">
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+    <!-- End of Product Section -->
+
+
+    <!-- Our Program Section -->
+    <div class="mt-56">
+      <h1 class="font-poppins font-semibold text-nav text-center text-4xl mb-24">Our Programs</h1>
+      <div class="program flex justify-center">
+        <div class="w-11/12 bg-green-gradient pl-20 pr-24 py-20">
+          <h2 class="font-poppins text-5xl  leading-68 text-white">Get Oportunity To Upgrade Your CV With Expert HR</h2>
+          <p class="text-whitegrey font-poppins font-normal my-8 text-xl">What are you waiting for? Get the experience by click the button below</p>
+          <a href="#" class="bg-buton-hero  text-white text-lg font-productSansBold font-bold py-2 px-12 md:px-7 rounded-lg">
+            Register Now
+        </a>
+        </div>
+        
+        <div class="swiper mySwiper w-screen " >
+          <div class="swiper-wrapper bg-none">
+            <div class=" swiper-slide  flex justify-center opacity-30 items-center ">
+              <img class="w-8/12 relative overflow-hidden " src="images/cview.png" alt="">
+            </div>
+            <div  class=" swiper-slide flex justify-center opacity-30 items-center "> 
+              <img class="w-8/12 relative overflow-hidden" src="images/cview3.png" alt="">
+            </div>
+            <div class=" swiper-slide flex justify-center opacity-30 items-center ">
+              <img class="w-8/12 relative overflow-hidden" src="images/cview2.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-button-next text-nav mr-4 w-fit p-3"></div>
+          <div class="swiper-button-prev text-nav ml-4 w-fit p-3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Our Program Section -->
+
+
+    <!-- People Behind Drafta -->
+    <div class="mx-16 mt-72">
+      <h1 class="font-poppins font-semibold text-nav text-center text-4xl mb-24">People Behind Drafta</h1>
+      <div class="flex flex-row justify-between text-center">
+        <div class="flex justify-center flex-col items-center">
+          <img src="images/akmal.svg" alt="">
+          <h4 class="font-poppins rounded-1.5-xl my-3.5  font-medium text-sm bg-login text-white w-[230.66px] h-[34.17px] py-2 ">M Akmal Riswanda</h4>
+          <p class="font-poppins font-medium text-sm text-[#616161]">as CRnD</p>
+        </div>
+        <div class="flex justify-center flex-col items-center">
+          <img src="images/mithsal.svg" alt="">
+          <h4 class="font-poppins rounded-1.5-xl my-3.5  font-medium text-sm bg-login text-white w-[230.66px] h-[34.17px] py-2 ">Hanif Mitsal Mahatta</h4>
+          <p class="font-poppins font-medium text-sm text-[#616161]">as CPO</p>
+        </div>
+        <div class="flex justify-center flex-col items-center">
+          <img src="images/syifa.svg" alt="">
+          <h4 class="font-poppins rounded-1.5-xl my-3.5  font-medium text-sm bg-login text-white w-[230.66px] h-[34.17px] py-2 ">Syifa Alina Amri</h4>
+          <p class="font-poppins font-medium text-sm text-[#616161]">as CEO</p>
+        </div>
+        <div class="flex justify-center flex-col items-center">
+          <img src="images/faiza.svg" alt="">
+          <h4 class="font-poppins rounded-1.5-xl my-3.5  font-medium text-sm bg-login text-white w-[230.66px] h-[34.17px] py-2 ">Faiza Hufzuddin</h4>
+          <p class="font-poppins font-medium text-sm text-[#616161]">as CBO</p>
+        </div>
+        <div class="flex justify-center flex-col items-center">
+          <img src="images/vallerina.svg" alt="">
+          <h4 class="font-poppins rounded-1.5-xl my-3.5  font-medium text-sm bg-login text-white w-[230.66px] h-[34.17px] py-2 ">Valerina Rosegenia</h4>
+          <p class="font-poppins font-medium text-sm text-[#616161]">as CCO</p>
+        </div>
+      </div>
+    </div>
+    <!-- End of People Behind Drafta -->
+
     <!-- Achievement Section -->
-      <div class="px-32" data-aos="zoom-in" data-aos-duration="1000">
+      <div  class="px-32 mt-36 pb-60 border" data-aos="zoom-in" data-aos-duration="1000">
         <div class="">
           <h1 class="font-poppins font-semibold text-5xl text-center bg-achievement py-12 rounded-t-5-xl mt-64 text-white">Our Achievement</h1>
         </div>
-        <div class="mt-5 w-full h-5  bg-achievement">
+        <div style="box-shadow: 0px 12px 40px -10px rgba(0, 0, 0, 0.25);" class="mt-5 w-full h-5  bg-achievement">
         </div>
           <img class="mt-5 mx-auto" src="images/achievementpic.png" alt="">
       </div>
@@ -108,7 +239,7 @@
 
 
     <!-- Upcoming Product Section -->
-      <div class="text-center w-full px-0 mt-52">
+      <!-- <div class="text-center w-full px-0 mt-52">
         <h1 class="font-poppins font-semibold text-5xl text-nav mb-20">Upcoming Product</h1>
         <img class="mx-auto" src="images/product.png" alt="">
         <div>
@@ -117,14 +248,14 @@
         <div>
           <img class="absolute left-1420px top-3100px" src="images/productLogo.png" alt="">
         </div>
-      </div>
+      </div> -->
     <!-- End of Upcoming Product Section -->
 
 
     <!--Cview Section-->
-      <div class="bg-cView w-full mt-96 mb-96">
+      <!-- <div class="bg-cView w-full mt-96 mb-96">
         <h1 class="text-center text-white font-poppins font-bold text-7xl py-60">Cview Batch 3 </h1>
-      </div>
+      </div> -->
     <!--End of Cview Section-->
 
 
@@ -169,6 +300,41 @@
       <script src="https://unpkg.com/flowbite@1.4.2/dist/flowbite.js"></script>
       <script src="https://kit.fontawesome.com/0d84a5b463.js" crossorigin="anonymous"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        const swiper = new Swiper(".mySwiper", {
+            // on: {
+            //     init: function () {
+            //     const index_currentSlide = this.realIndex;
+            //     const currentSlide = this.slides[index_currentSlide];
+            //     currentSlide.classList.remove("blur-md");
+            //     currentSlide.classList.add("blur-none");
+            //     }
+            // },
+            effect: "coverflow",
+            centeredSlides: true,
+            spaceBetween: -200,
+            loop: true,
+            slidesPerView: "auto",
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 3000,
+            },
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 5,
+                slideShadows: false,
+            },
+        });
+    </script>
       <script src="js/index.js"></script>
       <script>
         AOS.init();
