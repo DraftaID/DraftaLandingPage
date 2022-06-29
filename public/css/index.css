@@ -1,18 +1,42 @@
 .swiper-slide {
-    background-color: transparent !important;
-
+  background-color: transparent !important;
 }
 
 .swiper-slide-active {
-    opacity: 1;
+  opacity: 1;
 }
 
 .swiper-button-next::after {
-    font-size: 28.5px;
-    font-weight: 800;
+  font-size: 28.5px;
+  font-weight: 800;
 }
 
 .swiper-button-prev::after {
-    font-size: 28.5px;
-    font-weight: 800;
+  font-size: 28.5px;
+  font-weight: 800;
 }
+@media (min-width: 768px) {
+  .product-head {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .product-head {
+    font-size: 8px;
+    line-height: 9px;
+  }
+}
+@media (min-width: 768px) {
+  .product-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .product-text {
+    font-size: 5px;
+    line-height: 7px;
+  }
+}
+

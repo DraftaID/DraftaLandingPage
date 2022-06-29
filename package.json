@@ -1,7 +1,7 @@
 {
   "name": "drafta",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the new look of Drafta Landing Page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,13 @@
   "dependencies": {
     "aos": "^2.3.4",
     "swiper": "^8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DraftaID/DraftaLandingPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DraftaID/DraftaLandingPage/issues"
+  },
+  "homepage": "https://github.com/DraftaID/DraftaLandingPage#readme"
 }
