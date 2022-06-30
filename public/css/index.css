@@ -20,23 +20,35 @@
     font-size: 30px;
     line-height: 40px;
   }
-}
-@media (max-width: 767px) {
-  .product-head {
-    font-size: 8px;
-    line-height: 9px;
-  }
-}
-@media (min-width: 768px) {
   .product-text {
     font-size: 20px;
     line-height: 28px;
   }
-}
-@media (max-width: 767px) {
-  .product-text {
-    font-size: 5px;
-    line-height: 7px;
+  .green-line {
+    top: 1700px;
+    position: absolute;
+  }
+  .yellow-line {
+    top: 1690px;
+    position: absolute;
   }
 }
+@media (max-width: 767px) {
+  .product-head {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .product-text {
+    font-size: 7px;
+    line-height: 8px;
+  }
 
+  .green-line {
+    top: 1700px;
+    position: absolute;
+  }
+  .yellow-line {
+    top: 1690px;
+    position: absolute;
+  }
+}
